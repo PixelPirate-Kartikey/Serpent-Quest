@@ -1,9 +1,9 @@
 // Game Constants & Variables
 let inputDir = {x: 0, y: 0};  // Direction of the snake's movement
-const foodSound = new Audio('music/food.mp3');  // Sound for eating food
-const gameOverSound = new Audio('music/gameover.mp3');  // Sound for game over
-const moveSound = new Audio('music/move.mp3');  // Sound for moving the snake
-const musicSound = new Audio('music/music.mp3');  // Background music
+const foodSound = new Audio('food.mp3');  // Sound for eating food
+const gameOverSound = new Audio('gameover.mp3');  // Sound for game over
+const moveSound = new Audio('move.mp3');  // Sound for moving the snake
+const musicSound = new Audio('music.mp3');  // Background music
 let speed = 5;  // Initial speed of the snake
 let score = 0;  // Player's score
 let lastPaintTime = 0;  // Time tracker for repainting the game
